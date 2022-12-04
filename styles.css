@@ -6,7 +6,7 @@ body {
     
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
 body {
     background-color: #566f00;
@@ -16,12 +16,12 @@ body {
 
 } */
 
-/* @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 
     body {
         background-color: #566f00;
         color: #d3adad;
-        font-size: 10px;
+        font-size: 20px;
     }
     
     }
@@ -35,7 +35,7 @@ body {
 
 section {
     background-color: #1b0736;
-    padding: 20px;
+    padding: 21px;
     margin-bottom: 10px;
     border-radius: 30px;
     border: 5px solid rgb(8, 58, 68);
@@ -54,7 +54,7 @@ a {
 
 h1 {
     font-size: 5rem;
-    width:60%;
+    width:61%;
 }
 
 
