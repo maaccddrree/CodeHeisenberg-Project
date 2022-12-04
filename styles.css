@@ -34,6 +34,7 @@ body {
 
 
 section {
+    
     background-color: #1b0736;
     padding: 21px;
     margin-bottom: 10px;
@@ -82,11 +83,14 @@ img {
 }
 
 .fbutton {
+    display: block;
     margin: auto;
-    width: 20%;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    width: 10%;
     border: solid 3px rgb(8, 58, 68);
     padding: 20px;
-    color: red;
+    color: rgb(32, 211, 86);
     background-color: rgb(29, 29, 93);
     border-radius: 30px;
 }
