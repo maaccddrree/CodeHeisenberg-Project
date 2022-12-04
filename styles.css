@@ -42,9 +42,13 @@ section {
     border: 5px solid rgb(8, 58, 68);
     margin-bottom: 25px;
     margin: 10px;
+
 }
 
-
+section:hover {
+    background-color: #a3129b; 
+    color: rgb(233, 233, 244);
+}
 
 a {
     color: #b7ea00;
@@ -58,7 +62,11 @@ h1 {
     width:61%;
 }
 
-
+h1:hover {
+   
+     background-color: #1412a3; /* Green */
+     color: white;
+}
 
 
 
@@ -82,16 +90,29 @@ img {
     border-radius: 90px;
 }
 
-.fbutton {
-    display: block;
-    margin: auto;
+.button {
+    margin-right: auto;
+    margin-left: 650px;
     margin-bottom: 25px;
     margin-top: 20px;
-    width: 10%;
-    border: solid 3px rgb(8, 58, 68);
+    width: 90px;
+    border: solid 3px rgb(163, 17, 158);
     padding: 20px;
-    color: rgb(32, 211, 86);
+    color: rgb(122, 40, 7);
     background-color: rgb(29, 29, 93);
     border-radius: 30px;
+    background-color: #e6ede7;
+    transition-duration: 0.4s;
+    
+    
+}
+    
+.button:hover {
+    background-color: #a3129b; /* Green */
+    color: white;
+}
+
+.button:active {
+    color: red;
 }
 
