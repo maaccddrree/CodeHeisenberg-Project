@@ -1,10 +1,7 @@
-
-
 body {
   margin: 0;
   background-color: #566f00;
   color: #d3adad;
-  
 }
 
 section {
@@ -44,12 +41,23 @@ h1:hover {
   color: rgb(164, 45, 45);
 }
 
+/* .hov {
+   width: 100%;
+   position: relative;
+   left: 20px;
+
+} */
+
+
 img {
-  border: solid 2px rgb(8, 58, 68);
-  width: 400px;
+  border: solid 3px rgb(8, 58, 68);
+  width: 350px;
   padding: 30px;
   border-radius: 90px;
   margin-bottom: 80px;
+  position: relative;
+  left: 6%;
+
 }
 
 #pic1 img {
@@ -63,12 +71,6 @@ img {
   filter: sepia(0);
 }
 
-/*display: flex;
-flex-flow: column; ^
-align-items: center;
-margin-top: 700px; ^
-margin-left: auto; ^
-margin-right: auto ^ */
 
 .draw-border {
   display: flex;
